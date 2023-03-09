@@ -1,0 +1,144 @@
+/* GLOBAL */
+body {
+    min-height: 100vh;
+}
+#root {
+    min-height: 100vh;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #005bbe;
+    border-color: #005bbe;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius:20px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(197, 197, 197); 
+    border-radius:20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #999; 
+}
+.btn-link.btn-close {
+    padding: 0;
+    line-height: 1;
+    color: black;
+    font-size: 25px;
+}
+
+/* MENU */
+.navbar {
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(0, 91, 190, 1));
+}
+.navbar-text .nav-link {
+    display: inline;
+}
+a.nav-link.logout {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+.navbar-dark .navbar-text a.nav-link.logout:hover {
+    background-color: white;
+    color:#005bbe;
+}
+a.navbar-brand {
+    color: white;
+}
+/* LOGIN */
+.login-section {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(0, 91, 190, 1));
+}
+.login-card {
+    width: 600px;
+    padding: 80px 50px;
+}
+h1.login-title {
+    font-size: 2em;
+}
+
+/* PROJECTS */
+.sectionHeading button.btn-sm {
+    padding: 0rem .3rem;
+    font-size: 1.2rem
+}
+.sectionHeading {
+    gap: 10px!important;
+}
+.table-responsive {
+    min-height: 300px;
+}
+.table-projects.table th, .table-companies.table th, .table-wtgs.table th {
+    border-top: none;
+}
+.table-projects.table td, .table-projects.table th {
+    vertical-align: middle;
+    padding: 1.1rem
+}
+.wtg-wrapper {
+    max-height: 150px;
+    overflow-y: auto;
+}
+label.hard-delete {
+    display: block;
+    margin-right: 20px;
+}
+.editButton {
+    margin-right: 5px;
+}
+.wtg-pills {
+    padding: 5px 10px;
+    margin: 10px 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.wtg-pills > div {
+    position: relative;
+}
+.wtg-pills .form-check .form-check-input {
+    margin-left: 0;
+}
+.wtg-pills.checked {
+    padding: 5px 10px;
+    margin: 10px 5px;
+    border: 1px solid #005bbe;
+    border-radius: 10px;
+    font-size:13px;
+    color: #005bbe;
+}
+.wtg-pills .form-check {
+    padding-left: 0;
+}
+.wtg-pills .form-check-input {
+    opacity: 0;
+    position: absolute;
+    margin-top: 0.3rem;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/* FOOTER */
+.footer {
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(0, 91, 190, 1));
+    height: 10vh;
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer h5 {
+    margin-bottom: 0;
+}
